@@ -1,0 +1,414 @@
+*{
+	margin:0;
+	padding:0;
+	}
+
+body{
+	font-family:sans-serif;
+	}
+p{
+	color:#0c2003;
+	line-height: 1.8rem;
+	font-size:1rem;
+	text-align: center;
+	}
+section{
+		padding-top:100px;
+		padding-bottom:50px;
+		}
+
+.section-title {
+	color:blue;
+	text-transform:uppercase;
+	letter-spacing:.15rem;
+	margin-bottom:15px;
+	}
+.section-heading {
+	color:black;
+	text-transform:uppercase;
+	font-size:2.125rem;
+	margin-bottom:50px;
+	}
+	
+.container{
+	width:1170px;
+	margin:auto;
+	overflow:hidden;
+	border:;
+	text-align:center;
+	}
+
+.col-50{
+	border:;
+	width:50%;
+	float:left;
+	text-align:center;
+	}
+
+.col-33{
+	border:;
+	width:33%;
+	float:left;
+	text-align:center;
+	}
+
+.col-25{
+	border:;
+	width:25%;
+	float:left;
+	text-align:center;
+	}
+	
+.content{
+	margin:0px 10px 5px 10px;
+	}
+	
+i{
+	font-size:2.5rem;
+	color:yellow;	
+	}	
+footer i{
+	font-size:2rem;
+	color:blue;	
+	}	
+
+.btn{
+	padding: 10px 25px;
+	background-color: black;
+	border: 0px;
+	border-radius: 25px;
+	font-size:.95rem;
+	text-transform:uppercase;
+	color:white;
+		}
+/* --Header part --*/			
+header{
+	width:100%;
+	padding-top:15px;
+	padding-bottom:5px;
+	position:fixed;
+	background-color: #00000045;
+	overflow:hidden;
+	height:120px;
+	z-index:99;
+	}
+.company{
+	padding-left:20px;
+	float:left;
+	}
+.company img{
+	float:left;
+	display:block;
+	width:130px;
+	height:100px;
+	}
+.company h1{
+	float:left;
+	color:#111211;
+	font-size:2.5rem;
+	text-transform:uppercase;
+	margin:35px 8px;;
+	}
+
+#main-menu{
+	padding-right:30px;
+	float:right;
+	margin-top:45px;
+	}
+#main-menu ul{
+	list-style:none;	
+	}		
+#main-menu ul li{
+	float:left;
+	margin:auto 1px;
+	margin-top:px;	
+	}
+#main-menu ul li a{
+	margin: 2px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:black;
+    font-size: .95rem;
+    background-color: ;
+}
+#main-menu ul li a:hover {
+	background-color:#71e5e3c2;
+	color:white;
+}
+
+.active a{
+	background-color:black;
+	color:#5b98f3 !important;
+}
+/* --Introduction part --*/
+#intoduction{
+  background-image:url('../images/introduction.png');
+  background-repeat:no-repeat;
+	background-size:cover;
+	padding-bottom:0px;
+	margin-right:0px;
+	padding-right:0px;
+	height:450px;
+}
+
+#intoduction img{
+	padding-left:px;
+	bottom:0;
+	height:450px;
+	width:auto;
+	float:right;
+}
+#intoduction p{
+	color:black;
+	font-size:1.25rem;
+	text-transform:uppercase;
+	text-align:left;
+}
+#intoduction h6{
+	color:#356241;
+	font-size:1rem;
+	text-transform:uppercase;
+	text-align:left;
+}
+#intoduction h1{
+	color:#356241;
+	font-size:2.2rem;
+	text-transform:uppercase;
+	margin-bottom:12px;
+	text-align:left;	
+}
+
+ /*--about me part--*/ 
+ 
+ /*--progress-Part --*/
+#progress .col-33{
+	margin-top:10px;
+	margin-bottom:20px;
+}
+#progress h5{
+	text-align:left;
+	color: #665a5a;
+    text-transform:uppercase;
+	}
+.progress-achieve{
+	height:10px;
+	width:100%;
+	background-color:#698165ab;
+	border-radius:5px;
+	margin:10px auto;
+	}
+.progress-score{
+	height:9px;
+	border-radius:5px;
+	}
+	
+/*--Service-Part --*/ 
+#service{
+	background-image:url('../images/service2.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#services-box .content{
+	background-color:#ffffff75;
+	border-radius:5px; 
+	padding:55px;
+}
+#services-box  h3{
+	font-size:1.3rem;	
+	margin-top:25px;
+	margin-bottom:25px;
+	color:white;
+	text-transform:uppercase;
+}	
+#services-box p{
+	color:white;
+	font-size:.9rem;	
+}
+#services-box.content:hover{
+	background-color:#5f7fb5c2;
+}
+
+/* --portfolio-part --*/
+#project img{
+	height:240px;
+	width:100%;
+	margin:1px;
+}
+#project .overlay{
+	position:absolute;
+	bottom:10px;
+	background-color:black;
+	right:10px;	
+	left:10px;	
+	padding:15px;
+	color:white;
+	text-transform:uppercase;
+	display:none;
+}
+
+#project .content{
+	position:relative;
+}
+
+#project .content:hover .overlay{
+
+	display:block;
+}
+
+	transition:2ms;
+	visibility:visible;
+	opacity:1;
+}
+
+/*--review-Part --*/
+#review{
+	background-image:url('../images/bg2.PNG');
+	background-repeat:no-repeat;
+	background-size:cover;	
+}
+#review h3{
+	font-size:2rem;	
+	color:white;
+	margin:25px auto 30px;
+	}		
+#review h5{
+	color:white;
+	font-size:1.2rem;	
+}	
+
+ 
+/*--contact Part --*/	
+#contact{
+	background-image:url('../images/1.png');
+	background-repeat:no-repeat;
+	background-size:cover;	
+	 }
+ h6 {
+	color:#937430;
+	}
+	  
+h1 {
+	color: white;
+	font-size: 2.25rem;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom:35px;
+	}
+#contact form input,#contact form textarea{
+	width:100%; 
+	margin:15px;
+	background-color: transparent;
+    padding:10px;
+    font-size: 1rem;
+	border:1px solid white;
+	box-sizing:border-box;
+	border-radius:5px;
+ }
+#contact form textarea{
+	height:180px;
+}
+#contact .btn{
+	border-radius:5px;
+	padding:10px 35px;
+	font-size:20px;
+}
+#address{
+	margin:50px auto 25px;
+}
+#address p{
+	font-size:.9rem;
+	margin-top:15px;
+	color:black;
+}
+
+/*footer part*/
+footer{
+	/*
+	background-image:url('../images/12.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;	
+	*/
+	overflow:hidden;
+	background-color:gray;
+	padding:20px 0;
+}  
+#copyright{
+	float:left;	
+	margin:10px;
+	color:;
+}	  
+	  
+#social{
+	float:right;
+	
+	}	  
+#social ul{	  
+list-style:none;
+}
+#social ul li{
+	float:left;
+	margin:auto 15px;
+	height:20x;
+	width:25px;
+	border:2px solid blue;
+	padding-top:5px;
+	border-radius:50%;
+	text-align:center;
+	background-color:white;
+}
+#social ul li:last-child{
+	margin-right:0px;
+}	
+#social ul li a i{
+	font-size:.9rem;
+}
+#upper{
+	position:fixed;
+	right:25px;
+	bottom:25px;
+	background-color:#201e1e30;
+	margin:;
+	height:30px;
+	Width:40px;
+	text-align:center;
+	padding-top:10px;
+}
+
+#upper i{
+	font-size:1rem;
+	color:white;
+}
+
+/*Device view*/
+/*
+@media (max-width:1170px){
+	.container{
+		width:100%;
+	}
+}
+@media (max-width:576px){
+	.col-25,col-33,col-50{
+		width:100%;
+	}
+	#intoduction.col-50{
+		width:40%;
+	}
+	
+	#intoduction.img{
+		height:150px;
+	}
+	#intoduction.author_text{
+		margin-top:75px;
+	}
+	#intoduction p{
+		font-size:.75rem;
+	}
+	#intoduction h1{
+	font-size:1.25rem;	
+	}
+	#introduction h6{
+		font-size:.9rem;
+	}
+}
+*/
